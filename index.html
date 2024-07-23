@@ -7,7 +7,7 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -62,12 +62,12 @@
                 Categories
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item" href="#">My Roles</a></li>
-                <li><a class="dropdown-item" href="#">User Interviews/Persona</a></li>
-                <li><a class="dropdown-item" href="#">Problem Statement</a></li>
-                <li><a class="dropdown-item" href="#">Usability Test Results</a></li>
-                <li><a class="dropdown-item" href="#">Interactive Prototype</a></li>
-                <li><a class="dropdown-item" href="#">Final Thoughts</a></li>
+                <li><a class="dropdown-item" href="#my-roles-section">My Roles</a></li>
+                <li><a class="dropdown-item" href="#interviews-section">User Interviews/Persona</a></li>
+                <li><a class="dropdown-item" href="#problem-statement-section">Problem Statement</a></li>
+                <li><a class="dropdown-item" href="#usability-test-section">Usability Test Results</a></li>
+                <li><a class="dropdown-item" href="#prototype-section">Interactive Prototype</a></li>
+                <li><a class="dropdown-item" href="#final-thoughts-section">Final Thoughts</a></li>
             </ul>
         </div>
         
@@ -117,7 +117,7 @@
 </div>
 
 <!--my roles section-->
-<div class="container myRoles text-center">
+<div id="my-roles-section" class="container myRoles text-center">
     <h3>My Roles</h3>
     <p>Some of what I did in this project were some of the user interviews and a lot of user<br>testing. Another one of my main responsibilities for this project was creating all of the<br>onboarding frames and the home page, along with most of the sub pages within the<br>home page.</p>
     <img class="img-fluid myRolesImage" src="./images/Home Screen Progression.png" alt="Home Screen Progression">
@@ -125,7 +125,7 @@
 
 <!-- user research & findings Section bootstrap col-->
 <div class="container-fluid researchAndFindings" style="background-color: #7A8AAE;">
-    <div class="container interviewSection text-center">
+    <div id="interviews-section" class="container interviewSection text-center">
         <h3>User Interviews</h3>
         <p>For this project we conducted 6 user interviews that centered around how people plan<br>tasks and go about managing them. We gained a lot of feedback from the interviews<br>about what peoples pain points are when it comes to task management</p>
     </div>
@@ -152,7 +152,7 @@
 </div>
 <!--ideation section with boostrap col-->
 <div class="container-fluid ideationSection">
-    <div class="container problemStatement text-center">
+    <div id="problem-statement-section" class="container problemStatement text-center">
         <h3>Problem Statement</h3>
         <p>After conducting our research, we have observed that busy individuals often struggle to<br>stay on top of tasks, leading to inefficiency and overwhelm. How might we assist these<br>forgetful individuals in planning and adhering to their tasks, thereby relieving stress and<br>helping them achieve their goals?</p>
     </div>
@@ -186,7 +186,7 @@
 </div>
 <!--Usability Testing Results section with boostrap col-->
 <div class="container-fluid usabilityTestingResultsContainer" style="background-color: #7A8AAE;">
-    <div class="container usabilityTestResults text-center">
+    <div id="usability-test-section" class="container usabilityTestResults text-center">
         <h3>Usability Test Results</h3>
     </div>
     <div class="row justify-content-center">
@@ -207,7 +207,7 @@
     </div>
 </div>
 <!--Interactive Prototype section with boostrap col-->
-<div class="container interactivePrototype text-center">
+<div id="prototype-section" class="container interactivePrototype text-center">
     <h3>Interactive Prototype</h3>
     <p>We took the results from the usability testing and turned the wireframes into a hi-fi<br>clickable prototype. We finalized all of the menu options and buttons and figured out<br>the best transitions to use for each interaction.</p>
     <img class="img-fluid interactivePrototypeImage" src="./images/Interactive Prototype.png">
@@ -215,7 +215,7 @@
 </div>
 <!--final thoughts section with boostrap col-->
 <div class="container-fluid finalThoughtsContainer" style="background-color: #7A8AAE;">
-    <div class="container finalThoughts text-center">
+    <div id="final-thoughts-section" class="container finalThoughts text-center">
         <h3 class="final-thoughts-title">Final Thoughts</h3>
     </div>
     <div class="row justify-content-center mt-5">
@@ -237,7 +237,8 @@
         </div>
     </div>
 </div>
-<footer class="footer bg-dark text-white" style="height: 164px;">
+<!--footer section with boostrap col-->
+<footer class="footer bg-dark text-white">
     <div class="container h-100">
         <div class="row align-items-center h-100">
             <div class="col-md-3">
@@ -253,7 +254,7 @@
             </div>
             <div class="col-md-3 d-flex align-items-center justify-content-center">
                 <div class="getConnected">
-                    <h3 class="mb-3 getConnectedText">Get connected!</h3> 
+                     
                     <div class="socialIcons">
                         <img id="footerEmail" src="./images/Icon.png" alt="Email Icon">
                         <img id="footerSocial" src="./images/Social Icons.png" alt="Social Icons">
@@ -263,14 +264,51 @@
         </div>
         <div class="row mt-3">
             <div class="col-md-12 text-center">
-                <h4>Copyright © 2024 Josh Litke. All rights reserved.</h4>
+                <h5>Copyright © 2024 Josh Litke. All rights reserved.</h5>
             </div>
         </div>
     </div>
 </footer>
+<!--return to top button-->
+<button onclick="topFunction()" id="return-to-top" title="Go to top">Top</button>
 
+<script>
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("return-to-top").style.display = "block";
+      } else {
+        document.getElementById("return-to-top").style.display = "none";
+      }
+    }
+    
+   
+    function topFunction() {
+      document.body.scrollTop = 0; 
+      document.documentElement.scrollTop = 0; 
+    }
+    </script>
 
-
+<script>
+   
+    document.querySelectorAll('.dropdown-item').forEach(item => {
+        item.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop - 50, 
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+</script>
 
 
 </body>
