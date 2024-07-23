@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskify Case Study</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+
+    
+   
+    
+</head>
+<body>
+
+ <!--navbar section using a component-->   
+<section class="hero">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="menu container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/Monogram-JL-Logo-Design-by-Greenlines-Studios 1.png"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Work</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <a class="navbar-brand ms-auto" href="#"><img src="./images/Social Icons.png"></a>
+        </div>
+    </nav>
+    
+    <!--dropdown button using a component-->
+    <div class="categoriesMenu">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">My Roles</a></li>
+                <li><a class="dropdown-item" href="#">User Interviews/Persona</a></li>
+                <li><a class="dropdown-item" href="#">Problem Statement</a></li>
+                <li><a class="dropdown-item" href="#">Usability Test Results</a></li>
+                <li><a class="dropdown-item" href="#">Interactive Prototype</a></li>
+                <li><a class="dropdown-item" href="#">Final Thoughts</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="heroContents">
+        <h1 class="topHeader">Taskify Mobile App Design</h1>
+        <h2>From chaos to control, conquer your tasks with taskify.</h2>
+        <img class="heroImage" src="./images/Taskify for coding.png">
+    </div>
+
+</section>
+
+<!--project info using a bootstrap col-->
+<div class="container-fluid projectInfo" style="background-color: #7A8AAE;">
+    <div class="container">
+        <div class="row gx-4 gy-4">
+            <div class="col-lg-6">
+                <div class="card p-3">
+                    <h4 class="card-title">Problem</h4>
+                    <p class="card-text">Many people struggle with reminders of tasks and keeping them organized in one place. We designed this app to bring all of their tasks into one place in a simple format.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card p-3">
+                    <h4 class="card-title">My Roles & Responsibilities</h4>
+                    <ul class="card-text">
+                        <li>We worked as a group of 3.</li>
+                        <li>We all shared a lot of the responsibilities.</li>
+                        <li>My responsibility in prototyping was the creation of the onboarding pages and the home page. I also did a lot of user testing.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card p-3">
+                    <h4 class="card-title">Goal</h4>
+                    <p class="card-text">Our goal was to simplify the experience user have for making and managing tasks. We wanted to showcase our ability to manage tasks by location with pop-up reminders triggered by location.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card p-3">
+                    <h4 class="card-title">Timeline</h4>
+                    <p class="card-text">Our project took 3 weeks to complete.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--my roles section-->
+<div class="container myRoles text-center">
+    <h3>My Roles</h3>
+    <p>Some of what I did in this project were some of the user interviews and a lot of user<br>testing. Another one of my main responsibilities for this project was creating all of the<br>onboarding frames and the home page, along with most of the sub pages within the<br>home page.</p>
+    <img class="img-fluid myRolesImage" src="./images/Home Screen Progression.png" alt="Home Screen Progression">
+</div>
+
+<!-- user research & findings Section bootstrap col-->
+<div class="container-fluid researchAndFindings" style="background-color: #7A8AAE;">
+    <div class="container interviewSection text-center">
+        <h3>User Interviews</h3>
+        <p>For this project we conducted 6 user interviews that centered around how people plan<br>tasks and go about managing them. We gained a lot of feedback from the interviews<br>about what peoples pain points are when it comes to task management</p>
+    </div>
+    <div class="container interviewAnswers">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-4">
+                <h3>Female, 23</h3>
+                <p class="custom-width custom-text">“I usually forget things planned in advance like: doctors appointments, dentist, special occasions”</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Female,33</h3>
+                <p class="custom-width custom-text">“I would like to have daily reminders so I could what there is to be able to have the ability to move things around if I need to”</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Female, 33</h3>
+                <p class="custom-width custom-text">“Usually the kids, or unexpected life happenings force a change in routine or schedule”</p>
+            </div>
+        </div>
+        <div class="container personaSection text-center">
+            <h3>Persona</h3>
+            <img class="personaImage img-fluid" src="./images/Persona.png">
+        </div>
+    </div>
+</div>
+<!--ideation section with boostrap col-->
+<div class="container-fluid ideationSection">
+    <div class="container problemStatement text-center">
+        <h3>Problem Statement</h3>
+        <p>After conducting our research, we have observed that busy individuals often struggle to<br>stay on top of tasks, leading to inefficiency and overwhelm. How might we assist these<br>forgetful individuals in planning and adhering to their tasks, thereby relieving stress and<br>helping them achieve their goals?</p>
+    </div>
+    <div class="container interviewImages text-center mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <h3>I like</h3>
+                <img src="./images/I Like.png" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <h3>I wish</h3>
+                <img src="./images/I Wish.png" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <h3>What if?</h3>
+                <img src="./images/What If.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <div class="container userJourneyMap text-center">
+        <h3>User Journey Map</h3>
+        <p>We created this user Journey map to come up with how a person might go about finding<br>and using the app and why they did. This journey map gave us an opportunity to find<br>things to include in the app.</p>
+        <img class="img-fluid journeyMapImage" src="./images/User Journey Map.png">
+    </div>
+    <div class="container sketchesToWireframes text-center">
+        <h3>Sketches To Wireframes</h3>
+        <p>We drew up some sketches and then from there we created some wireframes which<br>reiterated on the sketches. From there we made the wireframes interactive to run some<br>user testing.</p>
+        <img class="img-fluid sketchesToWireframeImage" src="./images/Sketches To Wireframes.png">
+    </div>
+
+</div>
+<!--Usability Testing Results section with boostrap col-->
+<div class="container-fluid usabilityTestingResultsContainer" style="background-color: #7A8AAE;">
+    <div class="container usabilityTestResults text-center">
+        <h3>Usability Test Results</h3>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <img class="img-fluid UsabilityTestResults" src="./images/Prioritization Matrix.png" style="max-width: 100%;" alt="Usability Test Results">
+        </div>
+        <div class="col-md-8 mt-4 text-left">
+            <div class="mx-auto" style="max-width: 849px;">
+                <h4>Some of the main takeaways from the user testing were:</h4>
+                <ol class="custom-numbered-list text-left " style="color: white; font-family: 'Open Sans'; font-size: 23px; font-weight: 300;">
+                    <li>The confirm task button needed to be moved to bottom.</li>
+                    <li>Allow option to get directions to the task from the current location.</li>
+                    <li>Change the appearance of the confirm task button.</li>
+                    <li>Due by button needs a calendar and time selection option.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Interactive Prototype section with boostrap col-->
+<div class="container interactivePrototype text-center">
+    <h3>Interactive Prototype</h3>
+    <p>We took the results from the usability testing and turned the wireframes into a hi-fi<br>clickable prototype. We finalized all of the menu options and buttons and figured out<br>the best transitions to use for each interaction.</p>
+    <img class="img-fluid interactivePrototypeImage" src="./images/Interactive Prototype.png">
+    <img class="img-fluid taskifyFinalScreensImage" src="./images/Taskify Final Screens.png">
+</div>
+<!--final thoughts section with boostrap col-->
+<div class="container-fluid finalThoughtsContainer" style="background-color: #7A8AAE;">
+    <div class="container finalThoughts text-center">
+        <h3 class="final-thoughts-title">Final Thoughts</h3>
+    </div>
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-6"> 
+            <h3 class="reflectionHeaders">Reflection On Project:</h3>
+            <p class="paragraph-width reflectionOnProject">We’ve created an app that helps busy individuals effectively plan and implement task reminders, aiming to streamline users’ schedules and reduce their overall stress. Working as a group enhanced the app development experience. We overcame obstacles and gained a broader understanding of users’ needs by sharing different perspectives.</p>
+        </div>
+        <div class="col-md-6"> 
+            <h3 class="reflectionHeaders">Future Iterations:</h3>
+            <ul class="bulleted-list">
+                <li>An A.I. feature that remembers users' recurring tasks and recommends ways to schedule out each week.</li>
+                <li>Voice command connectivity with Siri.</li>
+                <li>The ability to view tasks by week from the calendar.</li>
+            </ul>
+        
+        </div>
+        <div class="button-container text-center">
+            <a href="#" class="read-case-study-btn">READ THE FULL CASE STUDY</a>
+        </div>
+    </div>
+</div>
+<footer class="footer bg-dark text-white" style="height: 164px;">
+    <div class="container h-100">
+        <div class="row align-items-center h-100">
+            <div class="col-md-3">
+                <img id="myLogoBottom" src="./images/Monogram-JL-Logo-Design-by-Greenlines-Studios 1.png" alt="Josh Litke Logo" class="img-fluid">
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <ul class="list-inline footerButtons mb-0">
+                    <li class="list-inline-item"><a href="#" class="text-white">Work</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">About</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Resume</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 d-flex align-items-center justify-content-center">
+                <div class="getConnected">
+                    <h3 class="mb-3 getConnectedText">Get connected!</h3> 
+                    <div class="socialIcons">
+                        <img id="footerEmail" src="./images/Icon.png" alt="Email Icon">
+                        <img id="footerSocial" src="./images/Social Icons.png" alt="Social Icons">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12 text-center">
+                <h4>Copyright © 2024 Josh Litke. All rights reserved.</h4>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>

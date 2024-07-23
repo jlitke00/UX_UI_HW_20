@@ -1,0 +1,253 @@
+
+.navbar {
+    background-color: #0A2240;
+    height: 112px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav-link {
+    color: white !important;
+    font-family: 'open sans', Arial, sans-serif;
+    font-size: 23px;
+}
+.nav-link.active {
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+    
+}
+.navbar-nav {
+    margin-left: 77%;
+}
+.dropdown-menu {
+    min-width: 200px;
+}
+#dropdownMenuButton {
+    background-color: #e07500;
+    margin: 30px;
+    outline: none !important;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+}
+.topHeader {
+    font-family: 'open sans', arial, sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+}
+h2 {
+    color: black;
+    font-family: 'open sans', arial, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 40px;
+}
+.heroContents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heroImage {
+    width: 1220px; 
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 80px; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+
+h3 {
+    margin-top: 50px;
+    font-family: 'jost';
+    font-size: 45px;
+    font-weight: 700;
+   
+    
+}
+p {
+    
+    color: #000;
+
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+.card {
+    background-color: transparent;
+    border: 0px;
+}
+.card-title {
+    color: #FFF;
+
+    font-family: Jost;
+    font-size: 35px;
+    font-weight: 800;
+
+}
+.card-text {
+    color: #FFF;
+
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-weight: 400;
+}
+.projectInfo {
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+.myRolesImage {
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+.researchAndFindings p {
+    color: white;
+    
+    font-family: "Open Sans";
+    font-size: 23px;
+    font-weight: 400;
+
+}
+.researchAndFindings h3 {
+    color: white;
+    margin-top: 50px ;
+    font-family: 'jost';
+    font-size: 45px;
+    font-weight: 700;
+}
+.interviewSection{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.container {
+    margin-top: 30px; 
+}
+
+.col-md-4 {
+    padding: 25px; 
+    text-align: center; 
+}
+.custom-width  {
+    width: 200px;
+    margin: 0 auto;
+}
+.custom-text {
+    font-family: 'Open Sans';
+    font-size: 35px;
+    font-weight: 400;
+}
+.personaImage {
+    margin-top: 50px;
+    padding-bottom: 150px;
+}
+.sketchesToWireframeImage {
+    padding-bottom: 150px;
+}
+.usabilityTestResults h3 {
+    color: white;
+    padding: 50px;
+}
+h4 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+}
+.usabilityTestingResultsContainer {
+    padding-bottom: 100px;
+
+}.interactivePrototypeImage {
+    padding-top: 50px;
+}
+.taskifyFinalScreensImage {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.paragraph-width {
+    max-width: 464px;
+    margin: 0 auto;
+
+}
+.reflectionHeaders {
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'jost';
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+
+.reflectionOnProject {
+    color: white;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 100px;
+}
+.bulleted-list {
+    width: 464px; 
+    margin: 0 auto; 
+    list-style-type: disc;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 26px;
+    font-weight: 400; 
+}
+
+.bulleted-list li {
+    margin-bottom: 10px; 
+}
+.finalThoughts h3 {
+    color: white;
+    padding-top: 50px;
+    font-family: 'jost';
+    font-size: 45px;
+    font-weight: 700; 
+}
+.read-case-study-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #E07500;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 464px;
+    height: 62px;
+    line-height: 32px; 
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.read-case-study-btn:hover {
+    background-color: #F8B163; 
+}
+
+.button-container {
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+.getConnectedTExt {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 23px;
+    font-weight: 400;
+}
+
+
+
+
+
+
